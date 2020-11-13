@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Sisters Bed & Breakfast</title>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        img.resize {
+            max-width: 300px;
+            max-height: 300px;
+            margin: 10px;
+        }
+
+        #cartIcon {
+            width: 50px;
+            height: 50px;
+        }
+
+        body {
+            background-color: #F1FAEE;
+        }
+
+        h1 {
+            font-size: 5rem;
+        }
+
+        h1
+         {
+            color: #1D3557;
+            font-family: 'Grenze Gotisch', cursive;
+        }
+
+        p, li, label, input {
+        	color: #1D3557;
+            font-style: italic;
+            font-family: 'Roboto', sans-serif;
+        }
+
+
+
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #457B9D;
+            font-family: 'Grenze Gotisch', cursive;
+        }
+
+        h2 {
+            font-size: 2.75rem;
+        }
+
+        h3 {
+            font-size: 1.7em;
+        }
+
+
+        hr {
+            color: #A8DADC;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Two Sisters Bed & Breakfast</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+	<h2>Contact Us</h2>
+	<h3><i>We'd love to hear from you!</i></h3>
+	<form method="POST" action="https://webhook.site/a2cc68de-d288-4589-80c0-9952ee506842">
+		<label for="firstName">First Name</label>
+	<br/>
+		<input type="text" name="firstName" id="firstName" placeholder="Anna" required />
+	<br/>
+	<br/>
+		<label for="lastName">Last Name</label>
+	<br/>
+		<input type="text" name="lastName" id="lastName" placeholder="Reh" required />
+	<br/>
+	<br/>
+		<label for="email">Email Address</label>
+	<br/>
+		<input type="email" name="email" id="email" placeholder="youremail@gmail.com" required />
+	<br/>
+	<br/>
+		<label for="phone">Phone Number</label>
+	<br/>
+		<input type="tel" name="phone" id="phone" placeholder="1-234-567-8910" required />
+	<br/>
+	<br/>
+		<label for="yourMessage">Your Message</label>
+	<br/>
+		<textarea rows="8" cols="50" name="yourMessage" id="yourMessage" placeholder="What would you like us to know?" required></textarea>
+	<br/>
+
+		<button>Contact Us</button>
+
+	</form>
+</main>
+
+</body>
+</html>
