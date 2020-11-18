@@ -1,0 +1,63 @@
+img.resize {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
+}
+
+#cartIcon {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    background-color: #F1FAEE;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h1
+ {
+    color: #1D3557;
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+p, li, label, input {
+    color: #1D3557;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #457B9D;
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+h2 {
+    font-size: 2.75rem;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+.cartButton {
+    color: #ffffff;
+    background-color: #E63946;
+    padding: 10px;
+    margin: 30px;
+    text-decoration: none;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 20px;
+}
+
+hr {
+    color: #A8DADC;
+}
