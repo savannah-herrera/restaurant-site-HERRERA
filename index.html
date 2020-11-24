@@ -6,45 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Two Sisters Bed & Breakfast</title>
     <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" </head>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
 <body>
-    <main>
-        <h1>Two Sisters Bed & Breakfast</h1>
-        <nav>
+    <nav>
+        <div class="navOne">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li>Appetizers</li>
+                <li>Mains</li>
+                <li>Desserts</li>
+                <li>Beverages</li>
+            </ul>
+        </div>
+        <div class="navTwo">
+            <ul>
                 <li><a href="contact.html">Contact Us</a></li>
                 <img id="cartIcon" src="https://www.flaticon.com/svg/static/icons/svg/1124/1124199.svg" alt="Cart Icon"
                     a href="">
             </ul>
-        </nav>
+        </div>
+    </nav>
+    <main>
+        <h1><a href="index.html">Two Sisters Bed & Breakfast</a></h1>
         <h2><i>Welcome, Bienvenue, Wilkommen from Anna & Helen!</i></h2>
-        <img class="resize" src="https://static.dw.com/image/42259834_303.jpg"
-            alt="German and French flags against the sky">
         <br />
-        <hr />
-
-        <ul>
-            <h2>Our Options</h2>
-            <li>Appetizers</li>
-            <li>Mains</li>
-            <li>Desserts</li>
-            <li>Beverages</li>
-        </ul>
-        <ol>
-            <h2>How to Order</h2>
-            <li>Read through our dishes.</li>
-            <li>Choose what you'd like to eat - everything is delicious!</li>
-            <li>Click 'Add to Cart' for each dish you'd like to order.</li>
-            <li>Click on the cart icon, then enter your payment information and preferred delivery time.</li>
-        </ol>
-
         <br />
-        <hr />
         <br />
         <h2>Appetizers ~ Entrées ~ Vorspeise</h2>
-        <table>
+        <table class="menu">
             <tr>
                 <td>
                     <h3>Cucumber Salad</h3>
@@ -55,40 +45,39 @@
                 <td>
                     <p>A refreshing summer salad made of homegrown cucumbers, sour cream, and fresh ground pepper.
                     </p>
-                    <a href="" class="cartButton">Add to Cart</a>
+                    <a href="product.html" class="cartButton">Product Details</a>
                 </td>
             </tr>
-            <br />
-            <br />
+
             <tr>
                 <td>
                     <h3>Coquilles St. Jacques</h3>
-                    <img class="resize"
-                        src="https://static01.nyt.com/images/2015/01/04/magazine/04eat1-copy/04eat1-articleLarge-v5.jpg"
-                        alt="Coquilles St. Jacques" name="Scallops in Cream Sauce">
+                    <img class="resize" src="images/coquillessaintjacques.JPG" alt="Coquilles St. Jacques"
+                        name="Scallops in Cream Sauce">
                 </td>
 
                 <td>
                     <p>A hearty and warming dish of scallops in a garlic, cheese, and cream sauce served in a
                         seashell.</p>
-                    <a href="" class="cartButton">Add to Cart</a>
+                    <a href="product.html" class="cartButton">Product Details</a>
                 </td>
             </tr>
-        </table>
-        <br />
-        <hr />
+        </table class="menu">
+
+
         <h2>Mains ~ Plats ~ Hauptgericht</h2>
-        <table>
+        <table class="menu">
             <tr>
                 <td>
                     <h3>Schnitzel mit Spätzle</h3>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT8CJ6a4DiwNzz9QEgk7dM9QnbOyUPusK02Zg&usqp=CAU"
+                    <img class="resize"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT8CJ6a4DiwNzz9QEgk7dM9QnbOyUPusK02Zg&usqp=CAU"
                         alt="Schnitzel mit Spätzle" name="German Fried Pork Chop with Pasta">
                 </td>
 
                 <td>
                     <p>Thin, breaded pork chops served with traditional German pasta</p>
-                    <a href="" class="cartButton">Add to Cart</a>
+                    <a href="product.html" class="cartButton">Product Details</a>
                 </td>
             </tr>
             <tr>
@@ -102,14 +91,14 @@
                 <td>
                     <p>An Eastern European dish of chicken and carrots spiced with paprika and served with potatoes.
                     </p>
-                    <a href="" class="cartButton">Add to Cart</a>
+                    <a href="product.html" class="cartButton">Product Details</a>
                 </td>
             </tr>
-        </table>
-        <br />
-        <hr />
+        </table class="menu">
+
+
         <h2>Desserts</h2>
-        <table>
+        <table class="menu">
             <tr>
                 <td>
                     <h3>Plateau de Fromage</h3>
@@ -120,10 +109,10 @@
 
                 <td>
                     <p>A varied plate of delicious French cheeses.</p>
-                    <a href="" class="cartButton">Add to Cart</a>
+                    <a href="product.html" class="cartButton">Product Details</a>
                 </td>
             </tr>
-            <br />
+
 
             <tr>
                 <td>
@@ -135,15 +124,17 @@
 
                 <td>
                     <p>Dark chocolate from one of the oldest chocolate brands in France.</p>
-                    <a href="" class="cartButton">Add to Cart</a>
+                    <a href="product.html" class="cartButton">Product Details</a>
                 </td>
             </tr>
 
         </table>
-        <br />
-        <hr />
-        <h2>Beverages ~ Boissons ~ Getränk</h2>
-        <table>
+
+
+        <table class="menu">
+            <thead>
+                <h2>Beverages ~ Boissons ~ Getränk</h2>
+            </thead>
             <tr>
                 <td>
                     <h3>Gewürztraminer</h3>
@@ -154,7 +145,7 @@
 
                 <td>
                     <p>A light and sweet German wine, perfect for summer sunsets.</p>
-                    <a href="" class="cartButton">Add to Cart</a>
+                    <a href="product.html" class="cartButton">Product Details</a>
                 </td>
             </tr>
 
@@ -169,7 +160,7 @@
                 <td>
                     <p>A rich and creamy liqueur made from huckleberries, just the thing for cool evenings by the
                         fire.</p>
-                    <a href="" class="cartButton">Add to Cart</a>
+                    <a href="product.html" class="cartButton">Product Details</a>
                 </td>
             </tr>
 
