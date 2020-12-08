@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Two Sisters Bed & Breakfast</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Roboto&display=swap" rel="stylesheet">
@@ -14,48 +14,108 @@
 </head>
 
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2 col-md-6 logo">
+                <h1><a href="index.html">Two Sisters Bed & Breakfast</a></h1>
+                <h4><i>Welcome, Bienvenue, Wilkommen from Anna & Helen!</i></h4>
+            </div>
+            <div class="col-sm-1 col-md">
+                <p>Appetizers</p>
+            </div>
+            <div class="col-sm-1 col-md">
+                <p>Mains</p>
+            </div>
+            <div class="col-sm-1 col-md">
+                <p>Desserts</p>
+            </div>
+            <div class="col-sm-1 col-md">
+                <p>Beverages</p>
+            </div>
+            <div class="col-sm-1 col-md">
+                <p><a href="contact.html">Contact</a></p>
+            </div>
+            <div class="col-sm-1 col-md">
+                <p><a href="checkout.html">Cart</a></p>
+            </div>
+        </div>
+    </div>
     <main>
-        <h1>Two Sisters Bed & Breakfast</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <img id="cartIcon" src="https://www.flaticon.com/svg/static/icons/svg/1124/1124199.svg" alt="Cart Icon"
-                    a href="">
-            </ul>
-        </nav>
-        <h2>Contact Us</h2>
-        <h3><i>We'd love to hear from you!</i></h3>
-        <form method="POST" action="https://webhook.site/a2cc68de-d288-4589-80c0-9952ee506842">
-            <label for="firstName">First Name</label>
-            <br />
-            <input type="text" name="firstName" id="firstName" placeholder="Anna" required />
-            <br />
-            <br />
-            <label for="lastName">Last Name</label>
-            <br />
-            <input type="text" name="lastName" id="lastName" placeholder="Reh" required />
-            <br />
-            <br />
-            <label for="email">Email Address</label>
-            <br />
-            <input type="email" name="email" id="email" placeholder="youremail@gmail.com" required />
-            <br />
-            <br />
-            <label for="phone">Phone Number</label>
-            <br />
-            <input type="tel" name="phone" id="phone" placeholder="1-234-567-8910" required />
-            <br />
-            <br />
-            <label for="yourMessage">Your Message</label>
-            <br />
-            <textarea rows="8" cols="50" name="yourMessage" id="yourMessage"
-                placeholder="What would you like us to know?" required></textarea>
-            <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Contact Us</h2>
+                    <h3><i>We'd love to hear from you!</i></h3>
+                </div>
+            </div>
 
-            <button>Contact Us</button>
+            <form method="POST" action="https://webhook.site/a2cc68de-d288-4589-80c0-9952ee506842" class="formAdjust">
+            </form>
 
-        </form>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+
+                        <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Anna"
+                            required />
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+
+                        <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Reh"
+                            required />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+
+                        <input type="email" class="form-control" name="email" id="email"
+                            placeholder="youremail@gmail.com" required />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+
+                        <input type="tel" class="form-control" name="phone" id="phone" placeholder="1-234-567-8910"
+                            required />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="form-group">
+                        <label for="yourMessage">Your Message</label>
+
+                        <textarea rows="8" class="form-control" name="yourMessage" id="yourMessage"
+                            placeholder="What would you like us to know?" required></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <button class="btn btn-primary">Contact Us</button>
+                </div>
+            </div>
+
+            </form>
+        </div>
     </main>
 
 </body>

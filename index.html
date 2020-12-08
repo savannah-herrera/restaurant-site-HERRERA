@@ -8,170 +8,194 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <nav>
-        <div class="navOne">
-            <ul>
-                <li>Appetizers</li>
-                <li>Mains</li>
-                <li>Desserts</li>
-                <li>Beverages</li>
-            </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2 col-md-6 logo">
+                <h1><a href="index.html">Two Sisters Bed & Breakfast</a></h1>
+                <h4 class="animate__animated animate__heartBeat"><i>Welcome, Bienvenue, Wilkommen from Anna & Helen!</i>
+                </h4>
+            </div>
+
+            <div class="col-sm-1 col-md-auto">
+                <p>Appetizers</p>
+            </div>
+            <div class="col-sm-1 col-md-auto">
+                <p>Mains</p>
+            </div>
+            <div class="col-sm-1 col-md-auto">
+                <p>Desserts</p>
+            </div>
+            <div class="col-sm-1 col-md-auto">
+                <p>Beverages</p>
+            </div>
+            <div class="col-sm-1 col-md-auto">
+                <p><a href="contact.html">Contact</a></p>
+            </div>
+            <div class="col-sm-1 col-md-auto">
+                <p><a href="checkout.html">Cart</a></p>
+            </div>
+
         </div>
-        <div class="navTwo">
-            <ul>
-                <li><a href="contact.html">Contact Us</a></li>
-                <img id="cartIcon" src="https://www.flaticon.com/svg/static/icons/svg/1124/1124199.svg" alt="Cart Icon"
-                    a href="">
-            </ul>
-        </div>
-    </nav>
+    </div>
     <main>
-        <h1><a href="index.html">Two Sisters Bed & Breakfast</a></h1>
-        <h2><i>Welcome, Bienvenue, Wilkommen from Anna & Helen!</i></h2>
-        <br />
-        <br />
-        <br />
-        <h2>Appetizers ~ Entrées ~ Vorspeise</h2>
-        <table class="menu">
-            <tr>
-                <td>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Appetizers ~ Entrées ~ Vorspeise</h2>
+                </div>
+            </div>
+
+            <div class="row menuItem">
+
+                <div class="col-sm-4 col-md-6">
                     <h3>Cucumber Salad</h3>
                     <img class="resize"
                         src="https://www.meatloafandmelodrama.com/wp-content/uploads/2016/06/retro-sour-cream-creamy-cucumber-salad.jpg"
                         alt="Cucumber Salad" name="Sour Cream and Cucumber Salad">
-                </td>
-                <td>
+                </div>
+                <div class="col-sm-8 col-md-6">
                     <p>A refreshing summer salad made of homegrown cucumbers, sour cream, and fresh ground pepper.
                     </p>
-                    <button class="btn btn-primary"><a href="product.html">Product Details</a></button>
-                </td>
-            </tr>
-
-            <tr>
-                <td>
+                    <button class="btn btn-primary" href="product.html">Details</button>
+                </div>
+            </div>
+            <div class="row menuItem">
+                <div class="col-sm-4 col-md-6">
                     <h3>Coquilles St. Jacques</h3>
                     <img class="resize" src="images/coquillessaintjacques.JPG" alt="Coquilles St. Jacques"
                         name="Scallops in Cream Sauce">
-                </td>
-
-                <td>
+                </div>
+                <div class="col-sm-8 col-md-6">
                     <p>A hearty and warming dish of scallops in a garlic, cheese, and cream sauce served in a
                         seashell.</p>
-                    <button class="btn btn-primary"><a href="product.html">Product Details</a></button>
-                </td>
-            </tr>
-        </table class="menu">
+                    <button class="btn btn-primary" href="product.html">Details</button>
+                </div>
+            </div>
+        </div>
 
 
-        <h2>Mains ~ Plats ~ Hauptgericht</h2>
-        <table class="menu">
-            <tr>
-                <td>
-                    <h3>Schnitzel mit Spätzle</h3>
-                    <img class="resize"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT8CJ6a4DiwNzz9QEgk7dM9QnbOyUPusK02Zg&usqp=CAU"
-                        alt="Schnitzel mit Spätzle" name="German Fried Pork Chop with Pasta">
-                </td>
-
-                <td>
-                    <p>Thin, breaded pork chops served with traditional German pasta</p>
-                    <button class="btn btn-primary"><a href="product.html">Product Details</a></button>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Chicken Paprikash</h3>
-                    <img class="resize"
-                        src="https://www.simplyrecipes.com/wp-content/uploads/2011/03/chicken-paprikash-horiz-a-1400-1024x682.jpg"
-                        alt="Chicken Paprikash" name="Paprika Chicken">
-                </td>
-
-                <td>
-                    <p>An Eastern European dish of chicken and carrots spiced with paprika and served with potatoes.
-                    </p>
-                    <button class="btn btn-primary"><a href="product.html">Product Details</a></button>
-                </td>
-            </tr>
-        </table class="menu">
 
 
-        <h2>Desserts</h2>
-        <table class="menu">
-            <tr>
-                <td>
-                    <h3>Plateau de Fromage</h3>
-                    <img class="resize"
-                        src="https://traiteur.auchan.fr/media/catalog/product/cache/2/image/460x/9df78eab33525d08d6e5fb8d27136e95/p/l/plateau_prenium_amb.jpg"
-                        alt="Plateau de Fromage" name="Cheese Plate">
-                </td>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Mains ~ Plats ~ Hauptgericht</h2>
+                </div>
+                <div class="row menuItem">
+                    <div class="col-sm-4 col-md-6">
+                        <h3>Schnitzel mit Spätzle</h3>
+                        <img class="resize" src="images/spatzle-with-fries-1837704_960_720.jpg"
+                            alt="Schnitzel mit Spätzle" name="German Fried Pork Chop with Pasta">
+                    </div>
+                    <div class="col-sm-8 col-md-6">
+                        <p>Thin, breaded pork chops served with traditional German pasta
+                        </p>
+                        <button class="btn btn-primary" href="product.html">Details</button>
+                    </div>
+                </div>
 
-                <td>
-                    <p>A varied plate of delicious French cheeses.</p>
-                    <button class="btn btn-primary"><a href="product.html">Product Details</a></button>
-                </td>
-            </tr>
+                <div class="row menuItem">
+                    <div class="col-sm-4 col-md-6">
+                        <h3>Chicken Paprikash</h3>
+                        <img class="resize"
+                            src="https://www.simplyrecipes.com/wp-content/uploads/2011/03/chicken-paprikash-horiz-a-1400-1024x682.jpg"
+                            alt="Chicken Paprikash" name="Paprika Chicken">
+                    </div>
+                    <div class="col-sm-8 col-md-6">
+                        <p>An Eastern European dish of chicken and carrots spiced with paprika and served with potatoes
+                        </p>
+                        <button class="btn btn-primary" href="product.html">Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Desserts</h2>
+                </div>
+                <div class="row menuItem">
+                    <div class="col-sm-4 col-md-6">
+                        <h3>Plateau de Fromage</h3>
+                        <img class="resize" src="images/plateaudefromage.jpg" alt="Plateau de Fromage"
+                            name="Cheese Plate">
+                    </div>
+                    <div class="col-sm-8 col-md-6">
+                        <p>A varied plate of delicious French cheeses.</p>
+                        <button class="btn btn-primary" href="product.html">Details</button>
+                    </div>
+                </div>
 
-            <tr>
-                <td>
-                    <h3>Chocolat Poulain</h3>
-                    <img class="resize"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0H1eLJQWvnF-beqCdy9Nw8aZh0_s9gTNNaA&usqp=CAU"
-                        alt="Chocolat Poulain" name="Dark Chocolate">
-                </td>
+                <div class="row menuItem">
+                    <div class="col-sm-4 col-md-6">
+                        <h3>Chocolat Poulain</h3>
+                        <img class="resize" src="images/chocolatpoulain2.jpg" alt="Chocolat Poulain"
+                            name="Dark Chocolate">
+                    </div>
+                    <div class="col-sm-8 col-md-6">
+                        <p>Dark chocolate from one of the oldest chocolate brands in France.</p>
+                        <button class="btn btn-primary" href="product.html">Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                <td>
-                    <p>Dark chocolate from one of the oldest chocolate brands in France.</p>
-                    <button class="btn btn-primary"><a href="product.html">Product Details</a></button>
-                </td>
-            </tr>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Beverages ~ Boissons ~ Getränk</h2>
+                </div>
+                <div class="row menuItem">
+                    <div class="col-sm-4 col-md-6">
+                        <h3>Gewürztraminer</h3>
+                        <img class="resize" src="images/gewurztraminer.jpg" alt="Gewürztraminer"
+                            name="Sweet White Wine">
+                    </div>
+                    <div class="col-sm-8 col-md-6">
+                        <p>A light and sweet German wine, perfect for summer sunsets.</p>
+                        <button class="btn btn-primary" href="product.html">Details</button>
+                    </div>
+                </div>
 
-        </table>
-
-
-        <table class="menu">
-            <thead>
-                <h2>Beverages ~ Boissons ~ Getränk</h2>
-            </thead>
-            <tr>
-                <td>
-                    <h3>Gewürztraminer</h3>
-                    <img class="resize"
-                        src="https://media-verticommnetwork1.netdna-ssl.com/wines/kientzler-gewurztraminer-1407619.jpg"
-                        alt="Gewürztraminer" name="Sweet White Wine">
-                </td>
-
-                <td>
-                    <p>A light and sweet German wine, perfect for summer sunsets.</p>
-                    <button class="btn btn-primary"><a href="product.html">Product Details</a></button>
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    <h3>Huckleberry Liqueur</h3>
-                    <img class="resize"
-                        src="https://shotsbox.com/wp-content/uploads/2020/01/Willies-Huckleberry-Cream-Liqueur_600x750_-Web.png"
-                        alt="Huckleberry Liquer" name="Huckleberry Liqueur">
-                </td>
-
-                <td>
-                    <p>A rich and creamy liqueur made from huckleberries, just the thing for cool evenings by the
-                        fire.</p>
-                    <a href="product.html" class="cartButton">Product Details</a>
-                </td>
-            </tr>
-
-        </table>
+                <div class="row menuItem">
+                    <div class="col-sm-4 col-md-6">
+                        <h3>Huckleberry Liqueur</h3>
+                        <img class="resize" src="images/huckleberry.jpeg" alt="Huckleberry Liquer"
+                            name="Huckleberry Liqueur">
+                    </div>
+                    <div class="col-sm-8 col-md-6">
+                        <p>A rich and creamy liqueur made from huckleberries, just the thing for cool evenings by the
+                            fire.</p>
+                        <button class="btn btn-primary" href="product.html">Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+    <!-- 
+
+                <div class="row">
+                    <div class="col-sm-4 col-md-6">
+                        <h3>Huckleberry Liqueur</h3>
+                        <img class="resize"
+                            src="https://shotsbox.com/wp-content/uploads/2020/01/Willies-Huckleberry-Cream-Liqueur_600x750_-Web.png"
+                            alt="Huckleberry Liquer" name="Huckleberry Liqueur">
+                    </div>
+
+                    <div class="col-sm-8 col-md-6">
+                        <p>A rich and creamy liqueur made from huckleberries, just the thing for cool evenings by the
+                            fire.</p>
+                        <button class="btn btn-primary"><a href="product.html">Product Details</a></button>
+                    </div>
+                </div>
+    </main> -->
 
 </body>
-
-</html>
-</head>
 
 </html>

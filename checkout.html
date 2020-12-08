@@ -12,70 +12,80 @@
 </head>
 
 <body>
-    <nav>
-        <div class="navOne">
-            <ul>
-                <li>Appetizers</li>
-                <li>Mains</li>
-                <li>Desserts</li>
-                <li>Beverages</li>
-            </ul>
-        </div>
-        <div class="navTwo">
-            <ul>
-                <li><a href="contact.html">Contact Us</a></li>
-                <img id="cartIcon" src="https://www.flaticon.com/svg/static/icons/svg/1124/1124199.svg" alt="Cart Icon"
-                    a href="">
-            </ul>
-        </div>
-    </nav>
-    <h1><a href="index.html">Two Sisters Bed & Breakfast</a></h1>
-    <h2><i>Thanks, Merci, Danke from Anna & Helen!</i></h2>
-
-    <div class="col70">
-        <div class="cart">
-            <h2>Shopping Cart</h2>
-
-            <table>
-                <thead>
-                    <th>Item Image</th>
-                    <th>Details</th>
-                    <th>Quantity</th>
-                    <th>Price</th>
-                    <th>Total</th>
-                </thead>
-                <tbody>
-
-                    <tr>
-
-                        <td><img src="images/coquillessaintjacques.JPG" class="hero"></td>
-                        <td>Coquille Saint Jacques</td>
-                        <td>2</td>
-                        <td>$15.00</td>
-                        <td>$30.00</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    <!---->
-    <div class="col30">
-        <div class="order-summary">
-            <h3>Order Summary</h3>
-            <ul>
-                <li> Subtotal: $30.00 </li>
-                <li> Tax: $5.00 </li>
-                <li> Delivery: $5.00 </li>
-                <li> Grand Total: $40.00 </li>
-            </ul>
-            <br />
-            <button class="cartButton">Checkout</button>
+    <div class="container">
+        <div class="row">
+            <div class=" col-sm-2 col-md-6 logo">
+                <h1><a href="index.html">Two Sisters Bed & Breakfast</a></h1>
+                <h4><i>Welcome, Bienvenue, Wilkommen from Anna & Helen!</i></h4>
+            </div>
+            <div class="col-sm-1 col-md navAdjust">
+                <p>Appetizers</p>
+            </div>
+            <div class="col-sm-1 col-md navAdjust">
+                <p>Mains</p>
+            </div>
+            <div class="col-sm-1 col-md">
+                <p>Desserts</p>
+            </div>
+            <div class="col-sm-1 col-md">
+                <p>Beverages</p>
+            </div>
+            <div class="col-sm-1 col-md">
+                <p><a href="contact.html">Contact</a></p>
+            </div>
+            <div class="col-sm-1 col-md">
+                <p><a href="checkout.html">Cart</a></p>
+            </div>
         </div>
     </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Shopping Cart</h2>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-sm-5 col-md">
+                <h5>Item</h5>
+                <img src="images/coquillessaintjacques.JPG" class="hero">
+            </div>
+            <div class="col-sm-5 col-md">
+                <h5>Details</h5>
+                <p>Coquille Saint Jacques</p>
+            </div>
+            <div class="col-sm-1">
+                <h5>Quantity</h5>
+                <p>2</p>
+            </div>
+            <div class="col-sm-1">
+                <h5>Price</h5>
+                <p>$15.00</p>
+            </div>
+            <div class="col-sm-1">
+                <h5>Total</h5>
+                <p>$30.00</p>
+            </div>
 
 
 
+            <div class="col-sm-4">
+                <div class="order-summary">
+                    <h3>Order Summary</h3>
+                    <div>
+                        <p> Subtotal: $30.00 </p>
+                        <p> Tax: $5.00 </p>
+                        <p> Delivery: $5.00 </p>
+                        <p> Grand Total: $40.00 </p>
+                    </div>
+                    <button class="btn btn-primary cartButton" href="Checkout.html">Check Out</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
 
 </body>
 
